@@ -1,6 +1,6 @@
 body {
   // websit color
-  --brand-color: #06C167;
+  --brand-color: #651EFE;
   --yellow-button-color: #ffc107;
   //text color
   --secondary-text: #757575;
@@ -32,10 +32,9 @@ body {
   }
 
   .icon {
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     box-sizing: initial;
-    margin: 10px;
     cursor: pointer;
 
     path {
@@ -43,21 +42,4 @@ body {
     }
   }
 
-  .icon-btn {
-    font-size: 1em;
-    font-weight: 600;
-    border: 1px solid transparent;
-    cursor: pointer;
-    border-radius: 20px;
-    padding: 8px 14px;
-  }
-
-  .btn {
-    font-size: 1em;
-    font-weight: 600;
-    border: 1px solid transparent;
-    cursor: pointer;
-    border-radius: 6px;
-    padding: 8px 14px;
-  }
 }
