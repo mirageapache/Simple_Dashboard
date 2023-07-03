@@ -21,7 +21,7 @@ interface Data {
 }
 
 function MainContent() {
-  const apiUrl:string = 'https://www.ris.gov.tw/rs-opendata/api/v1/datastore/ODRP019/111';
+  const apiUrl:string = 'https://www.ris.gov.tw/rs-opendata/api/v1/datastore/ODRP019';
   const [data, setData] = useState<any|undefined>() // api資料
   const [districtData, setDistrictData] = useState<string[]>() // 區資料
   const [year, setYear] = useState<string>('') // 年份
@@ -32,7 +32,7 @@ function MainContent() {
   
   useEffect(()=>{
     if(city.length > 0){
-      axios(`${apiUrl}?county=${city}`)
+      axios(`${apiUrl}/${year}?county=${city}`)
       .then(res => {
         let rawData: string[] = [...new Set((res.data.responseData as Data[]).map((item: Data) => item.site_id.substring(3)))];
         setDistrictData(rawData);
@@ -57,10 +57,12 @@ function MainContent() {
   // 設定縣/市選項
   function handleDistrictChange(value:string){
     setDistrict(value)
-    
   }
   
-
+  // 搜尋資料
+  function searchData(){
+    // axios(`${apiUrl}`)
+  }
 
   return (
     <section id='main-content'>
