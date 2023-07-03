@@ -6,7 +6,7 @@ function Header() {
   return (
     <header id='header'>
         <h2 className='logo'>LOGO</h2>
-        <button className='setting-btn'>
+        <button className='btn setting-btn'>
           <IconSetting className='icon' />
         </button>
     </header>

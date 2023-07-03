@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #main-content {
   display: flex;
   align-items: center;
@@ -42,6 +43,7 @@
 }
 #main-content .search-bar .submit-btn {
   background-color: var(--brand-color);
+  line-height: 1.5em;
   font-weight: 700;
   color: white;
   height: 34px;
@@ -49,6 +51,11 @@
   border: 0px;
   padding: 0 10px;
   cursor: pointer;
+}
+#main-content .search-bar .disable-btn {
+  background-color: var(--gray-3);
+  color: var(--gray-6);
+  cursor: default;
 }
 @media screen and (max-width: 500px) {
   #main-content .search-bar {
@@ -64,4 +71,36 @@
   #main-content .search-bar #district-select {
     width: 100%;
   }
+}
+#main-content .search-result {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 20px;
+}
+#main-content .search-result .div-line {
+  position: relative;
+  width: 100%;
+  display: block;
+  border-top: 1px solid var(--brand-color);
+}
+#main-content .search-result .div-line::before {
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: calc(50% - 60px);
+  width: 120px;
+  height: 30px;
+  background-color: white;
+}
+#main-content .search-result .div-line::after {
+  content: "搜尋結果";
+  position: absolute;
+  top: -18px;
+  left: calc(50% - 50px);
+  width: 100px;
+  background-color: white;
+  color: var(--brand-color);
+  border: 1px solid var(--brand-color);
+  border-radius: 20px;
+  padding: 5px 15px;
 }

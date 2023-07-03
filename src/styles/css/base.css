@@ -34,3 +34,7 @@ body .icon {
 body .icon path {
   cursor: pointer;
 }
+body .btn {
+  display: flex;
+  align-items: center;
+}
