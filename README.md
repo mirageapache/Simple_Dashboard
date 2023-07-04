@@ -1,4 +1,4 @@
-# BigData 面試題 Simple DashBoard
+# Simple DashBoard
 
 [Live Demo Website](https://mirageapache.github.io/Simple_Dashboard)
 
