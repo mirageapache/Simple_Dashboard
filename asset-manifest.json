@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Simple_Dashboard/static/css/main.d351d9f7.css",
+    "main.js": "/Simple_Dashboard/static/js/main.365567f7.js",
+    "static/js/787.712c33fd.chunk.js": "/Simple_Dashboard/static/js/787.712c33fd.chunk.js",
+    "static/media/background-image.png": "/Simple_Dashboard/static/media/background-image.a815a42f4619cc964c18.png",
+    "static/media/setting.svg": "/Simple_Dashboard/static/media/setting.ef393451b46f4a127ed1c3145b380149.svg",
+    "index.html": "/Simple_Dashboard/index.html",
+    "main.d351d9f7.css.map": "/Simple_Dashboard/static/css/main.d351d9f7.css.map",
+    "main.365567f7.js.map": "/Simple_Dashboard/static/js/main.365567f7.js.map",
+    "787.712c33fd.chunk.js.map": "/Simple_Dashboard/static/js/787.712c33fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d351d9f7.css",
+    "static/js/main.365567f7.js"
+  ]
+}
