@@ -1,0 +1,20 @@
+.chart-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.chart-panel .title {
+  margin: 25px 0;
+  font-size: 2rem;
+}
+.chart-panel .column-chart {
+  width: 90%;
+  max-width: 800px;
+  margin-left: -40px;
+}
+.chart-panel .pie-chart {
+  width: 90%;
+  max-width: 800px;
+  margin-top: 40px;
+}

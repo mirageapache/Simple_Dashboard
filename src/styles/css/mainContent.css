@@ -5,6 +5,9 @@
   flex-direction: column;
   padding: 20px 10px;
 }
+#main-content .title {
+  font-size: 2rem;
+}
 #main-content .search-bar {
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -30,6 +33,9 @@
   height: 35px;
   padding: 5px 10px;
   cursor: pointer;
+}
+#main-content .search-bar .form-span .form-select:focus {
+  border: 2px solid var(--brand-color);
 }
 #main-content .search-bar .form-span::after {
   content: "";
@@ -63,7 +69,7 @@
     grid-gap: 15px;
     width: 100%;
   }
-  #main-content .search-bar .select-year {
+  #main-content .search-bar .year-span {
     width: -moz-fit-content;
     width: fit-content;
   }

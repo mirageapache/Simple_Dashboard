@@ -1,0 +1,27 @@
+@mixin charset {
+  width: 90%;
+  max-width: 800px;
+}
+
+.chart-panel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+
+  .title{
+    margin: 25px 0;
+    font-size: 2rem;
+  }
+
+  .column-chart{
+    @include charset;
+    margin-left: -40px;
+  }
+
+  .pie-chart{
+    @include charset;
+    margin-top: 40px;
+  }
+
+}
