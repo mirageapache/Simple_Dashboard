@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# BigData 面試題 Simple DashBoard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Demo Website](https://mirageapache.github.io/Simple_Dashboard)
 
-## Available Scripts
+使用 React 製作簡易的戶口統計網站，依據 Figma 設計稿完成頁面切版，
+串接政府資料開放平臺所提供的 API 資料([API Document](https://data.gov.tw/dataset/14299))
+並使用[Highcharts](https://www.highcharts.com/)套件，將資料以圖表型式呈現。
 
-In the project directory, you can run:
+## 專案環境設置
 
-### `npm start`
+- npm - 8.5.0
+- react - 18.2.0
+- react-router-dom - 6.14.1
+- axios - 1.4.0
+- hightcharts - 11.1.0
+- gh-pages - 5.0.0
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 開始使用
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone Repository
 
-### `npm test`
+```
+git clone https://github.com/mirageapache/Simple_Dashboard.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. 安裝 npm
 
-### `npm run build`
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. 啟動程式
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. 瀏覽網頁
 
-### `npm run eject`
+```
+瀏覽器將自動開啟網頁，如未正常開啟請輸入http://localhost:3000/，即可使用
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+5. 終止程式
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+在終端機按下兩次 ctrl + C 即可終止程式
+```
