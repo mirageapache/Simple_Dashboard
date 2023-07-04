@@ -168,7 +168,6 @@ function MainContent() {
           : 
           <></>
         }
-        
       </div>
     </section>
   )
