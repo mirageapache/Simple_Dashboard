@@ -1,4 +1,4 @@
-# Simple DashBoard
+# Simple Dashboard
 
 [Live Demo Website](https://mirageapache.github.io/Simple_Dashboard)
 
