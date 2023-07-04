@@ -64,9 +64,9 @@ function MainContent() {
     }
     else{
       setCity('');
-      setDistrict('')
       setDistrictDisable(true)
     }
+    setDistrict('')
   }
 
   // 設定縣/市選項
